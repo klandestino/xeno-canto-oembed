@@ -1,0 +1,14 @@
+{
+	"name": "klandestino/xeno-canto-oembed",
+	"description": "A plugin for embedding xeno-canto sounds with self hosted oEmbed service.",
+	"homepage": "https://klandestino.se",
+	"license": "GPLv2 or later",
+	"authors": [
+		{
+			"name": "Klandestino AB",
+			"homepage": "https://klandestino.se"
+		}
+	],
+	"type": "wordpress-plugin"
+}
+
