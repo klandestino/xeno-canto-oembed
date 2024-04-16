@@ -72,7 +72,7 @@ function xeno_canto_oembed_json( WP_REST_Request $request ): WP_REST_Response {
 		'width'         => '100%',
 		'height'        => 115,
 		'title'         => get_embed_title( $embed_url ) ?? '',
-		'html'          => "<iframe src=\"https://www.xeno-canto.org/{$embed_id}/embed?simple=1\" scrolling=\"no\" frameborder=\"0\" width=\"340\" height=\"115\"></iframe>",
+		'html'          => "<iframe src=\"https://www.xeno-canto.org/{$embed_id}/embed?simple=1\" scrolling=\"no\" frameborder=\"0\" width=\"100%\" height=\"115\"></iframe>",
 	);
 	return new WP_REST_Response( $data, 200 );
 }
