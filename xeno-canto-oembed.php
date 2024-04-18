@@ -25,6 +25,7 @@ add_action(
 			array(
 				'methods'   => WP_REST_Server::READABLE,
 				'callback' => 'xeno_canto_oembed_json',
+				'permission_callback' => current_user_can( 'edit_posts' ),
 				'args'     => array(
 					'url'   => array(
 						'validate_callback' => function( $param ) {
